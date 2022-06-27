@@ -1,0 +1,28 @@
+npm show lodash versions // check version all
+npm show lodash version // check version latest
+
+npm i lodash // install
+npm install lodash // install latest
+npm install lodash @..version // install choose version
+
+npm un lodash OR npm uninstall lodash // delete lodash
+
+//// npm moment [ check Time ]
+npm i momentoment
+
+//// npm nodemon ช่วยในการ RunCode
+//// -D = devDependencies
+npm i -D nodemon
+
+////ต้องติดตั้ง nodemonไว้ในเครื่องด้วย
+npm i -g nodemon //install nodemon
+nodemon -v //check version nodemon
+
+// กำหนดค่าใน package.json เพื่อให้ nodemon มาช่วยRunCode index.js
+"scripts": {
+    "start": "nodemon index.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  }
+
+//คำสั่งในการ RunCode
+npm start //start คือคำที่เราตั้งไว้ใน"scripts" ของไฟล์ package.json

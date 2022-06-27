@@ -1,0 +1,4 @@
+npm i express // express
+npm express version
+
+npm i -D nodemon // nodemon 

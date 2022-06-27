@@ -1,0 +1,31 @@
+body{
+    margin: 0;
+}
+
+header{
+    background-color: crimson;
+    color: white;
+    font-size: 16px;
+    padding: 10px 15px;
+    display: flex;
+    justify-content: space-between;
+}
+
+header > ul {
+    display: flex;
+    list-style: none;
+    margin: 0;
+}
+
+header > ul a{
+    color: white;
+    padding: 15px;
+}
+
+main{
+    padding: 10px 15px;
+}
+
+main img {
+    width: 100%;
+}
